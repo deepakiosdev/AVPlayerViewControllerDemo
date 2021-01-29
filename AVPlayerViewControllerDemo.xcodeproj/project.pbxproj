@@ -13,10 +13,11 @@
 		9EC8F89825C47D3300653689 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EC8F89625C47D3300653689 /* Main.storyboard */; };
 		9EC8F89A25C47D3500653689 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EC8F89925C47D3500653689 /* Assets.xcassets */; };
 		9EC8F89D25C47D3500653689 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EC8F89B25C47D3500653689 /* LaunchScreen.storyboard */; };
+		9EC8F8AA25C47F6700653689 /* ElephantSeals.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9EC8F8A925C47F6700653689 /* ElephantSeals.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9EC8F88D25C47D3300653689 /* AVPlayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVPlayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EC8F88D25C47D3300653689 /* AVPlayerViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVPlayerViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EC8F89025C47D3300653689 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9EC8F89225C47D3300653689 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9EC8F89425C47D3300653689 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +25,7 @@
 		9EC8F89925C47D3500653689 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9EC8F89C25C47D3500653689 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9EC8F89E25C47D3500653689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EC8F8A925C47F6700653689 /* ElephantSeals.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = ElephantSeals.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +42,7 @@
 		9EC8F88425C47D3300653689 = {
 			isa = PBXGroup;
 			children = (
-				9EC8F88F25C47D3300653689 /* AVPlayerDemo */,
+				9EC8F88F25C47D3300653689 /* AVPlayerViewController */,
 				9EC8F88E25C47D3300653689 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +50,12 @@
 		9EC8F88E25C47D3300653689 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9EC8F88D25C47D3300653689 /* AVPlayerDemo.app */,
+				9EC8F88D25C47D3300653689 /* AVPlayerViewControllerDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9EC8F88F25C47D3300653689 /* AVPlayerDemo */ = {
+		9EC8F88F25C47D3300653689 /* AVPlayerViewController */ = {
 			isa = PBXGroup;
 			children = (
 				9EC8F89025C47D3300653689 /* AppDelegate.swift */,
@@ -61,18 +63,19 @@
 				9EC8F89425C47D3300653689 /* ViewController.swift */,
 				9EC8F89625C47D3300653689 /* Main.storyboard */,
 				9EC8F89925C47D3500653689 /* Assets.xcassets */,
+				9EC8F8A925C47F6700653689 /* ElephantSeals.mp4 */,
 				9EC8F89B25C47D3500653689 /* LaunchScreen.storyboard */,
 				9EC8F89E25C47D3500653689 /* Info.plist */,
 			);
-			path = AVPlayerDemo;
+			path = AVPlayerViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9EC8F88C25C47D3300653689 /* AVPlayerDemo */ = {
+		9EC8F88C25C47D3300653689 /* AVPlayerViewControllerDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9EC8F8A125C47D3500653689 /* Build configuration list for PBXNativeTarget "AVPlayerDemo" */;
+			buildConfigurationList = 9EC8F8A125C47D3500653689 /* Build configuration list for PBXNativeTarget "AVPlayerViewControllerDemo" */;
 			buildPhases = (
 				9EC8F88925C47D3300653689 /* Sources */,
 				9EC8F88A25C47D3300653689 /* Frameworks */,
@@ -82,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = AVPlayerDemo;
+			name = AVPlayerViewControllerDemo;
 			productName = AVPlayerDemo;
-			productReference = 9EC8F88D25C47D3300653689 /* AVPlayerDemo.app */;
+			productReference = 9EC8F88D25C47D3300653689 /* AVPlayerViewControllerDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +104,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9EC8F88825C47D3300653689 /* Build configuration list for PBXProject "AVPlayerDemo" */;
+			buildConfigurationList = 9EC8F88825C47D3300653689 /* Build configuration list for PBXProject "AVPlayerViewControllerDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +117,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9EC8F88C25C47D3300653689 /* AVPlayerDemo */,
+				9EC8F88C25C47D3300653689 /* AVPlayerViewControllerDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -125,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9EC8F89D25C47D3500653689 /* LaunchScreen.storyboard in Resources */,
+				9EC8F8AA25C47F6700653689 /* ElephantSeals.mp4 in Resources */,
 				9EC8F89A25C47D3500653689 /* Assets.xcassets in Resources */,
 				9EC8F89825C47D3300653689 /* Main.storyboard in Resources */,
 			);
@@ -216,7 +220,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +275,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -286,15 +290,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 83G865S528;
-				INFOPLIST_FILE = AVPlayerDemo/Info.plist;
+				INFOPLIST_FILE = AVPlayerViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tabsqure.AVPlayerDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dipak.AVPlayerViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -305,15 +311,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 83G865S528;
-				INFOPLIST_FILE = AVPlayerDemo/Info.plist;
+				INFOPLIST_FILE = AVPlayerViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tabsqure.AVPlayerDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dipak.AVPlayerViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -322,7 +330,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9EC8F88825C47D3300653689 /* Build configuration list for PBXProject "AVPlayerDemo" */ = {
+		9EC8F88825C47D3300653689 /* Build configuration list for PBXProject "AVPlayerViewControllerDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9EC8F89F25C47D3500653689 /* Debug */,
@@ -331,7 +339,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9EC8F8A125C47D3500653689 /* Build configuration list for PBXNativeTarget "AVPlayerDemo" */ = {
+		9EC8F8A125C47D3500653689 /* Build configuration list for PBXNativeTarget "AVPlayerViewControllerDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9EC8F8A225C47D3500653689 /* Debug */,

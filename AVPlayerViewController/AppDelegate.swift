@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  AVPlayerDemo
+//  AVPlayerViewController
 //
 //  Created by Dipak Pandey on 29/01/21.
 //
